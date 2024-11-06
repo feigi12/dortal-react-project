@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import userImage from "../assets/images/user.jpg";
 import {Contect, LogoImage} from "./TitleStyles";
 

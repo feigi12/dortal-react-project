@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const insuranceData = [
     {
-        industry: "ביטוח בריאות",
+        industry: "רכב",
         product: "פוליסת חיים",
         insuredName: "יצחק בן אברהם",
         licenseNumber: "1234567",

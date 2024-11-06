@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import {selectInsurance} from "../redux/agentSlice";
 import Send from "../assets/images/send.png";
 import Edit from "../assets/images/edit.png";
 import {

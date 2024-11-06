@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import { useDispatch, useSelector } from 'react-redux';
 import {
     BackgroundDiv,
     Button,
@@ -8,7 +7,6 @@ import {
     DualButton,
     Row,
     ContentContainer,
-    WhiteBar
 } from "./DashbordStyles";
 import Title from "./Title";
 import SearchBar from "./SearchBar";
@@ -17,7 +15,6 @@ import InsuranceTable from "./InsuranceTable";
 import InsuranceCard from "./InsuranceCard";
 
 const DashboardScreen = () => {
-    const dispatch = useDispatch();
     const [searchTerm, setSearchTerm] = useState("");
     const [isMobile, setIsMobile] = useState(false);
 
